@@ -1,0 +1,75 @@
+<html>
+<head>
+    <title>
+        Login Page
+    </title>
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&amp;display=swap" rel="stylesheet"/>
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-blue-500 h-screen flex items-center justify-center">
+<div class="bg-white p-8 rounded-lg shadow-lg w-96">
+    <div class="mb-4">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+            Email
+        </label>
+        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" placeholder="Email" type="text"/>
+    </div>
+    <div class="mb-6">
+        <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
+            Password
+        </label>
+        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" placeholder="Password" type="password"/>
+    </div>
+    <div class="flex items-center justify-between mb-6">
+        <label class="inline-flex items-center">
+            <input class="form-checkbox text-indigo-600" type="checkbox"/>
+            <span class="ml-2 text-sm text-gray-700">
+      Remember me
+     </span>
+        </label>
+        <a class="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800" href="#">
+            Forgot password?
+        </a>
+    </div>
+    <div class="mb-6">
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full">
+            SIGN IN
+        </button>
+    </div>
+    <div class="flex items-center justify-center mb-6">
+        <div class="border-t border-gray-300 w-full mr-3">
+        </div>
+        <span class="text-gray-500">
+     OR
+    </span>
+        <div class="border-t border-gray-300 w-full ml-3">
+        </div>
+    </div>
+    <div class="space-y-4">
+        <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow w-full flex items-center justify-center">
+            <img alt="Google logo" class="mr-2" height="24" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-9bpYJ5YKaOOTtZ0iwVKdmMm1/user-AXeyoQK1U3kfyaDNcUwsoLq2/img-bMcbw1R8HAlyom3sK5C7xAOt.png?st=2023-11-28T11%3A58%3A16Z&amp;se=2023-11-28T13%3A58%3A16Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2023-11-28T01%3A24%3A50Z&amp;ske=2023-11-29T01%3A24%3A50Z&amp;sks=b&amp;skv=2021-08-06&amp;sig=3JiTJdxd5ekncejtyZhkebObbP94NHTdFzU2w4DSupA%3D" width="24"/>
+            CONTINUE WITH GOOGLE
+        </button>
+        <button class="bg-blue-100 hover:bg-blue-200 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow w-full flex items-center justify-center">
+            <img alt="GitHub logo" class="mr-2" height="24" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-9bpYJ5YKaOOTtZ0iwVKdmMm1/user-AXeyoQK1U3kfyaDNcUwsoLq2/img-zvUiFtbhCkqVDU9Kuym7yxTf.png?st=2023-11-28T11%3A58%3A20Z&amp;se=2023-11-28T13%3A58%3A20Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2023-11-28T00%3A44%3A22Z&amp;ske=2023-11-29T00%3A44%3A22Z&amp;sks=b&amp;skv=2021-08-06&amp;sig=Kbf13kQmtzamNHeNKZCFFzDp9rY%2BIvMhRxLnOh3K17M%3D" width="24"/>
+            CONTINUE WITH GITHUB
+        </button>
+        <button class="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded shadow w-full flex items-center justify-center">
+            <img alt="Naver logo" class="mr-2" height="24" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-9bpYJ5YKaOOTtZ0iwVKdmMm1/user-AXeyoQK1U3kfyaDNcUwsoLq2/img-v4r0E2PuqCVV7EpRcsjgQL7e.png?st=2023-11-28T11%3A58%3A16Z&amp;se=2023-11-28T13%3A58%3A16Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2023-11-28T09%3A41%3A22Z&amp;ske=2023-11-29T09%3A41%3A22Z&amp;sks=b&amp;skv=2021-08-06&amp;sig=TAeWAiuYzBJrazFbJj2kbTACbX3vetZXl9ndRgMomMs%3D" width="24"/>
+            CONTINUE WITH NAVER
+        </button>
+        <button class="bg-yellow-300 hover:bg-yellow-400 text-gray-800 font-semibold py-2 px-4 rounded shadow w-full flex items-center justify-center">
+            <img alt="Kakao logo" class="mr-2" height="24" src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-9bpYJ5YKaOOTtZ0iwVKdmMm1/user-AXeyoQK1U3kfyaDNcUwsoLq2/img-4m0KsG1hWuXiqIN2k4ZQZrWR.png?st=2023-11-28T11%3A58%3A16Z&amp;se=2023-11-28T13%3A58%3A16Z&amp;sp=r&amp;sv=2021-08-06&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2023-11-28T07%3A46%3A50Z&amp;ske=2023-11-29T07%3A46%3A50Z&amp;sks=b&amp;skv=2021-08-06&amp;sig=jlAlVtq7f7Fitjd%2B%2BoTzY4kj8f%2BydDYbC7yTcAmdc%2BA%3D" width="24"/>
+            CONTINUE WITH KAKAO
+        </button>
+    </div>
+</div>
+</body>
+</html>
